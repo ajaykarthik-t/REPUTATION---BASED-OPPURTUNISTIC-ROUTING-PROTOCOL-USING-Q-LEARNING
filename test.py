@@ -8,6 +8,7 @@ import time
 import threading
 from collections import defaultdict
 
+
 class Node:
     def __init__(self, node_id, is_malicious=False):
         self.node_id = node_id
